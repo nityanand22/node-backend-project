@@ -2,15 +2,25 @@
   "name": "backend_hitesh",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon src/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "backend",
+    "express",
+    "mongoose",
+    "nodemon"
+  ],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "express": "^5.2.1",
     "mongoose": "^9.1.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4"
   }
 }
